@@ -23,6 +23,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="first.py" />
+    <Compile Include="myplot.py" />
+    <Compile Include="Pmf.py" />
     <Compile Include="PythonMath.py" />
     <Compile Include="survey.py" />
     <Compile Include="thinkstats.py" />
