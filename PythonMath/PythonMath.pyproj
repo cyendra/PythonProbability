@@ -22,11 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="conditional.py" />
     <Compile Include="descriptive.py" />
     <Compile Include="first.py" />
     <Compile Include="myplot.py" />
     <Compile Include="Pmf.py" />
     <Compile Include="PythonMath.py" />
+    <Compile Include="risk.py" />
     <Compile Include="survey.py" />
     <Compile Include="thinkstats.py" />
   </ItemGroup>

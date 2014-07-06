@@ -4,6 +4,7 @@ import sys
 import Pmf
 import matplotlib.pyplot as pyplot
 import myplot
+import descriptive
 
 def Mode(hist):
     mode = 0
@@ -15,4 +16,4 @@ def Mode(hist):
     return (ans, mode)
 
 if __name__ == '__main__':
-    myplot.main()
+    descriptive.main(*sys.argv)
