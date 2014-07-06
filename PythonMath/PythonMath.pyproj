@@ -25,6 +25,7 @@
     <Compile Include="first.py" />
     <Compile Include="PythonMath.py" />
     <Compile Include="survey.py" />
+    <Compile Include="thinkstats.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>

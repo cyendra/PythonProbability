@@ -7,6 +7,7 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
 import survey
+import thinkstats
 
 # copying Mean from thinkstats.py so we don't have to deal with
 # importing anything in Chapter 1
@@ -98,6 +99,9 @@ def Summarize(data_dir):
     
     print 'Difference in days', (mu1 - mu2) * 7.0
     print 'Difference in hours', (mu1 - mu2) * 7.0 * 24.0
+
+    print 'first:', thinkstats.MeanVar(firsts.lengths)
+    print 'other:', thinkstats.MeanVar(others.lengths)
 
 
 
