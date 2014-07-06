@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="descriptive.py" />
     <Compile Include="first.py" />
     <Compile Include="myplot.py" />
     <Compile Include="Pmf.py" />

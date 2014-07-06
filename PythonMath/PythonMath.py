@@ -2,6 +2,8 @@ import survey
 import first
 import sys
 import Pmf
+import matplotlib.pyplot as pyplot
+import myplot
 
 def Mode(hist):
     mode = 0
@@ -13,6 +15,4 @@ def Mode(hist):
     return (ans, mode)
 
 if __name__ == '__main__':
-    hist = Pmf.MakeHistFromList([1,2,2,3,5]);
-    print Mode(hist)
-    vals, freqs = hist.Render()
+    myplot.main()
