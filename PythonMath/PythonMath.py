@@ -5,6 +5,8 @@ import Pmf
 import matplotlib.pyplot as pyplot
 import myplot
 import descriptive
+import risk
+import conditional
 
 def Mode(hist):
     mode = 0
@@ -16,4 +18,4 @@ def Mode(hist):
     return (ans, mode)
 
 if __name__ == '__main__':
-    descriptive.main(*sys.argv)
+    conditional.main()
